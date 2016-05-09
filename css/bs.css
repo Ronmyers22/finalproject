@@ -1,0 +1,78 @@
+.jumbotron {
+ /* border:1px solid black;
+  text-align:center;
+  background-color:#00ccff;*/
+    position: relative;
+    background: #000 url("../img/NYC.jpg") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    color:white;
+}
+h1 {
+  text-align: center;
+  color:white;
+}
+h3 {
+  text-align:center; 
+}
+
+
+#para1 {
+  color:red;
+}
+#para2 {
+  color:blue;
+}
+/*#para3 {
+  color:red;
+}*/
+.modal-title {
+  text-align:center;
+}
+#button {
+  text-align:center;
+}
+.panel-footer {
+  background-color:black;
+  color:white;
+}
+    
+     body {
+      position: relative; 
+  }
+  .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  .navbar {
+      margin-bottom: 0px;
+  }
+
+  .affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+     .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 50%;
+      margin: auto;
+  }
+.opa
+{
+  opacity:.75;
+}
+body {
+  background-color:#e6e6e6; 
+}
+#myimage {
+  width:300px
+  height:300px;
+}
